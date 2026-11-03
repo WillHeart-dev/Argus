@@ -52,7 +52,7 @@ const starters = [
         </svg>
       </div>
 
-      <p class="qa-hero__eyebrow">Knowledge Q&amp;A · Argus</p>
+      <p class="qa-hero__eyebrow">Knowledge Q&amp;A · NoteNexus</p>
 
       <h1 class="qa-hero__title">
         向<span class="qa-hero__title-accent">你的知识库</span>提问

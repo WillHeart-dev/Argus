@@ -35,7 +35,7 @@ const placeholder = computed(() => {
   if (kbBlocked.value) return '请先选择要检索的知识库群组'
   if (props.streaming) return '正在接收回答…（按 Esc 中断）'
   return props.mode === 'CHAT'
-    ? '和 Argus 聊点什么？按 Enter 发送 / Shift + Enter 换行'
+    ? '和 NoteNexus 聊点什么？按 Enter 发送 / Shift + Enter 换行'
     : '在知识库中提问，答案会附带证据引用'
 })
 

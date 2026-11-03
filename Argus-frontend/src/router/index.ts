@@ -9,13 +9,13 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('../views/HomeView.vue'),
-      meta: { title: '数据洞察中心' },
+      meta: { title: 'NoteNexus' },
     },
     {
       path: '/login',
       name: 'login',
       component: () => import('../views/LoginView.vue'),
-      meta: { title: '登录 - 数据洞察中心' },
+      meta: { title: '登录 - NoteNexus' },
     },
 
     // ── 认证后的工作区（含侧边栏布局） ──
@@ -90,7 +90,7 @@ const router = createRouter({
 
 // 全局标题守卫
 router.afterEach((to) => {
-  document.title = (to.meta.title as string) || '数据洞察中心'
+  document.title = (to.meta.title as string) || 'NoteNexus'
 })
 
 // 全局认证守卫

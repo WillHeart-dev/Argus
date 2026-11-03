@@ -104,7 +104,7 @@ const cases = [
             <use href="#navPetal" transform="rotate(270 16 16)"/>
             <circle cx="16" cy="16" r="5.5" fill="url(#navGrad)"/>
           </svg>
-          <span>数据洞察中心</span>
+          <span>NoteNexus</span>
         </a>
         <nav class="nav-links">
           <a href="#features">核心功能</a>
@@ -262,7 +262,7 @@ const cases = [
                 <use href="#ftPetal" transform="rotate(270 16 16)"/>
                 <circle cx="16" cy="16" r="5.5" fill="url(#ftGrad)"/>
               </svg>
-              <span>数据洞察中心</span>
+              <span>NoteNexus</span>
             </div>
             <p>融合 RAG 与 AI Agent 技术的企业级智能知识平台</p>
           </div>
@@ -286,7 +286,7 @@ const cases = [
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2026 数据洞察中心. All rights reserved.</p>
+          <p>&copy; 2026 NoteNexus. All rights reserved.</p>
         </div>
       </div>
     </footer>

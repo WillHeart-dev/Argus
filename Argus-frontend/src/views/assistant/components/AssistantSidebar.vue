@@ -73,7 +73,7 @@ function formatRelative(iso: string | null): string {
         </svg>
       </div>
       <div class="asst-sidebar__brand-text">
-        <span class="asst-sidebar__brand-eyebrow">Argus Research</span>
+        <span class="asst-sidebar__brand-eyebrow">NoteNexus Research</span>
         <span class="asst-sidebar__brand-title">Agent Console</span>
       </div>
       <button

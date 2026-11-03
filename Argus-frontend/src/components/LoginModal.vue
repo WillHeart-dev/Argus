@@ -116,7 +116,7 @@ async function handleRegister() {
     <template #header>
       <div class="modal-header">
         <h2>{{ mode === 'login' ? '欢迎回来' : '创建账号' }}</h2>
-        <p>{{ mode === 'login' ? '登录数据洞察中心' : '立即注册，开启智能知识服务' }}</p>
+        <p>{{ mode === 'login' ? '登录 NoteNexus' : '立即注册，开启智能知识服务' }}</p>
       </div>
     </template>
 

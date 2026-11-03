@@ -52,11 +52,11 @@ async function handleLogin() {
           <use href="#lpPetal" transform="rotate(270 16 16)"/>
           <circle cx="16" cy="16" r="5.5" fill="url(#loginPageGrad)"/>
         </svg>
-        <span>数据洞察中心</span>
+        <span>NoteNexus</span>
       </a>
 
       <h1>登录</h1>
-      <p class="subtitle">使用您的账号登录数据洞察中心</p>
+      <p class="subtitle">使用您的账号登录 NoteNexus</p>
 
       <form class="login-form" @submit.prevent="handleLogin">
         <div class="input-group">

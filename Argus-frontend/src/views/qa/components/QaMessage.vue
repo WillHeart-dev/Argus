@@ -65,7 +65,7 @@ function formatTime(ts: number): string {
 
     <div class="qa-msg__body">
       <header class="qa-msg__head">
-        <span class="qa-msg__role">{{ message.role === 'user' ? 'You' : 'Argus' }}</span>
+        <span class="qa-msg__role">{{ message.role === 'user' ? 'You' : 'NoteNexus' }}</span>
         <span class="qa-msg__time">{{ formatTime(message.createdAt) }}</span>
       </header>
 

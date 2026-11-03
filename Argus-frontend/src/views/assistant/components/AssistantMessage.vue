@@ -92,7 +92,7 @@ function pad(n: number): string {
     <div class="amsg__body">
       <header class="amsg__head">
         <span class="amsg__role">
-          {{ message.role === 'USER' ? 'You' : message.role === 'ASSISTANT' ? 'Argus' : 'Tool' }}
+          {{ message.role === 'USER' ? 'You' : message.role === 'ASSISTANT' ? 'NoteNexus' : 'Tool' }}
         </span>
         <span v-if="message.toolMode" class="amsg__mode-tag" :class="`amsg__mode-tag--${message.toolMode.toLowerCase()}`">
           {{ message.toolMode === 'CHAT' ? 'chat' : 'kb_search' }}

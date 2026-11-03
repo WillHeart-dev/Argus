@@ -151,8 +151,8 @@ function navigateTo(path: string) {
           </svg>
         </div>
         <div v-show="!sidebarCollapsed" class="sidebar-brand__text">
-          <span class="sidebar-brand__eyebrow">Argus · Platform</span>
-          <span class="sidebar-brand__title">数据洞察中心</span>
+          <span class="sidebar-brand__eyebrow">NoteNexus · Platform</span>
+          <span class="sidebar-brand__title">NoteNexus</span>
         </div>
       </div>
 
@@ -204,9 +204,9 @@ function navigateTo(path: string) {
             </svg>
           </button>
           <div class="breadcrumb">
-            <span class="breadcrumb-eyebrow">Argus</span>
+            <span class="breadcrumb-eyebrow">NoteNexus</span>
             <span class="breadcrumb-sep">/</span>
-            <span class="breadcrumb-current">{{ route.meta.title || '数据洞察中心' }}</span>
+            <span class="breadcrumb-current">{{ route.meta.title || 'NoteNexus' }}</span>
           </div>
         </div>
         <div class="topbar-right">

@@ -47,7 +47,7 @@ function formatRelative(ts: number): string {
         </svg>
       </div>
       <div class="qa-sidebar__brand-text">
-        <span class="qa-sidebar__brand-eyebrow">Argus Research</span>
+        <span class="qa-sidebar__brand-eyebrow">NoteNexus Research</span>
         <span class="qa-sidebar__brand-title">Q&A Console</span>
       </div>
     </div>
