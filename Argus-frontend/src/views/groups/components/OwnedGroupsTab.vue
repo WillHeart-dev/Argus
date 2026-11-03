@@ -17,7 +17,7 @@ function formatDate(dateStr?: string) {
   if (!isNaN(d.getTime())) {
     return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`
   }
-  return String(dateStr).split(' ')[0].split('T')[0].replace(/-/g, '.')
+  return String(dateStr).split(' ')[0]?.split('T')[0]?.replace(/-/g, '.') ?? ''
 }
 </script>
 

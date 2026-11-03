@@ -2,7 +2,7 @@
 import { ref, nextTick, watch, computed, reactive } from 'vue'
 import { uploadDocument } from '@/api/document'
 import { extractApiError } from '@/api/http'
-import { useChunkedUpload } from '../composables/useChunkedUpload'
+import { useChunkedUpload } from '@/composables/useChunkedUpload'
 
 const props = defineProps<{
   visible: boolean
