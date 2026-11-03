@@ -20,34 +20,34 @@
 【示例 1】
 用户原始问题：请问文档上传的流程是什么呀？
 输出：
-{
+\{
   "strategy": "REWRITE",
   "queries": ["文档上传流程"]
-}
+\}
 
 【示例 2】
 用户原始问题：RAG切片后如何入库？pgvector写入失败怎么办？
 输出：
-{
+\{
   "strategy": "DECOMPOSE",
   "queries": ["RAG切片入库流程", "pgvector写入失败解决办法"]
-}
+\}
 
 【示例 3】
 用户原始问题：pgvector 写入失败
 输出：
-{
+\{
   "strategy": "DIRECT",
   "queries": ["pgvector 写入失败"]
-}
+\}
 
 【示例 4】
 用户原始问题：知识库里上传了哪些文档？请帮我分别总结一下要点。
 输出：
-{
+\{
   "strategy": "GLOBAL",
   "queries": ["知识库里上传了哪些文档？请帮我分别总结一下要点。"]
-}
+\}
 
 用户原始问题：
 {question}
